@@ -1,0 +1,2 @@
+# ESTRUTURAS-DE-DADOS-Arrays-Matrizes-Algoritmos-de-Ordena-o-e-Busca
+Repositório desenvolvido para a disciplina de Estruturas de Dados, com atividades práticas sobre arrays, matrizes, algoritmos de ordenação e algoritmos de busca.  Os exercícios foram desenvolvidos principalmente em Python e C, com foco na implementação dos algoritmos, análise de desempenho, quantidade de operações e complexidade computacional.
