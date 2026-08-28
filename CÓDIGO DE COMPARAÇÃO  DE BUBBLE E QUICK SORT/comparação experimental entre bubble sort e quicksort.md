@@ -1,8 +1,9 @@
-Análise Experimental: Bubble Sort e Quick Sort
+# Análise Experimental: Bubble Sort e Quick Sort
 
-Esta etapa apresenta a análise dos resultados obtidos nos experimentos realizados com os algoritmos Bubble Sort e Quick Sort, considerando diferentes tamanhos de arrays: 10, 20 e 1.000 elementos.
+***Esta etapa apresenta a análise dos resultados obtidos nos experimentos realizados com os algoritmos Bubble Sort e Quick Sort, considerando diferentes tamanhos de arrays: 10, 20 e 1.000 elementos.***
 
 Resultados e Análise
+---
 
 a) Qual algoritmo realizou menos operações para 10 elementos?
 
