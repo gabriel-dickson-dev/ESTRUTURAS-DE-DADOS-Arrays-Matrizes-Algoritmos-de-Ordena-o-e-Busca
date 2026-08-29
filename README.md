@@ -88,7 +88,7 @@ O melhor caso ocorre quando o pivô consegue dividir o vetor em partes aproximad
 
 O Quick Sort é indicado para grandes conjuntos de dados e aplicações que necessitam de eficiência na ordenação. Entretanto, não é a melhor alternativa quando é necessário preservar a ordem relativa entre elementos de mesmo valor.
 
-### exemplo em gráfico feito em I.A para melhor entendimento
+### exemplo em gráfico feito com ajuda de I.A para melhor entendimento
 
 ```mermaid
 xychart-beta
