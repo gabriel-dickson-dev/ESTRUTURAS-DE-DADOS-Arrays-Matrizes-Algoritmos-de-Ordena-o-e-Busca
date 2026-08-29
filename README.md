@@ -1,5 +1,5 @@
-# ESTRUTURAS-DE-DADOS-Arrays-Matrizes-Algoritmos-de-Ordena-o-e-Busca
-Repositório desenvolvido para a disciplina de Estruturas de Dados, com atividades práticas sobre arrays, matrizes, algoritmos de ordenação e algoritmos de busca.  Os exercícios foram desenvolvidos principalmente em Python, com foco na implementação dos algoritmos, análise de desempenho, quantidade de operações e complexidade computacional.
+# ESTRUTURAS-DE-DADOS-Arrays-Matrizes-Algoritmos-de-Ordenação-e-Busca
+Repositório desenvolvido para a disciplina de Estruturas de Dados do curso de Engenharia de Software no Centro Universitário UDF, com atividades práticas sobre arrays, matrizes, algoritmos de ordenação e algoritmos de busca.  Os exercícios foram desenvolvidos principalmente em Python, com foco na implementação dos algoritmos, análise de desempenho, quantidade de operações e complexidade computacional.
 Este projeto apresenta um estudo sobre dois algoritmos fundamentais de ordenação: **Bubble Sort** e **Quick Sort**. O objetivo é analisar seus princípios de funcionamento, lógica de ordenação, complexidade computacional, utilização de memória, vantagens, limitações e principais aplicações.
 explicação das diferenças entre Algoritmos de Ordenação Bubble Sort e Quick Sort  :
 
@@ -88,6 +88,17 @@ O melhor caso ocorre quando o pivô consegue dividir o vetor em partes aproximad
 
 O Quick Sort é indicado para grandes conjuntos de dados e aplicações que necessitam de eficiência na ordenação. Entretanto, não é a melhor alternativa quando é necessário preservar a ordem relativa entre elementos de mesmo valor.
 
+### exemplo em gráfico feito em I.A para melhor entendimento
+
+```mermaid
+xychart-beta
+    title "Comparativo de Tempo de Execução (Bubble Sort vs Quick Sort)"
+    x-axis "Tamanho do Array (elementos)" [1000, 5000, 10000, 50000]
+    y-axis "Tempo (ms)" 0 --> 5000
+    line "Bubble Sort O(n²)" [15, 380, 1500, 4800]
+    line "Quick Sort O(n log n)" [1, 3, 7, 35]
+```
+
 ---
 
 ## 3. Comparação entre Bubble Sort e Quick Sort
@@ -102,3 +113,35 @@ O Quick Sort é indicado para grandes conjuntos de dados e aplicações que nece
 | Vantagem principal         | Simplicidade e facilidade de implementação | Eficiência e bom desempenho prático                         |
 | Limitação principal        | Baixo desempenho em grandes volumes        | Sensibilidade à escolha do pivô                             |
 | Aplicação recomendada      | Fins didáticos e listas pequenas           | Grandes volumes de dados e aplicações que exigem desempenho |
+
+---
+
+##  Análise e Conclusão (ETAPA FINAL DO TRABALHO)
+
+As etapas desse projeto e os experimentos/códigos realizados permitem observar o comportamento dos algoritmos Bubble Sort e Quick Sort à medida que o tamanho da estrutura de dados aumenta.
+
+###  Influência do tamanho da estrutura de dados
+
+O aumento da quantidade de elementos influencia diretamente o número de operações realizadas pelos algoritmos. Quanto maior o vetor, maior tende a ser a quantidade de comparações e movimentações necessárias para concluir a ordenação. Esse aumento é especialmente significativo em algoritmos com complexidade quadrática, como o Bubble Sort.
+
+###  Comparação do crescimento dos algoritmos
+
+Bubble Sort e Quick Sort não apresentam o mesmo comportamento conforme o número de elementos aumenta. O Bubble Sort possui complexidade O(n²) no caso médio e no pior caso, fazendo com que o número de operações cresça rapidamente conforme o tamanho da entrada aumenta.
+
+O Quick Sort apresenta complexidade média O(n log n), proporcionando um crescimento significativamente menor no número de operações na maioria dos casos. Entretanto, seu pior caso pode atingir O(n²), dependendo da estratégia utilizada para escolha do pivô.
+
+Dessa forma, os códigos demonstram que o Quick Sort tende a apresentar melhor desempenho em estruturas maiores, enquanto o Bubble Sort pode ser adequado principalmente para estruturas pequenas e situações.
+
+###  Importância da análise das operações
+
+Analisar somente o resultado final da ordenação não é suficiente para comparar algoritmos, pois diferentes algoritmos podem produzir exatamente o mesmo resultado utilizando quantidades muito diferentes de operações.
+
+A análise de comparações, trocas, movimentações e tempo de execução permite compreender a eficiência do algoritmo e como seu desempenho se comporta com o aumento da quantidade de dados. Portanto, além de verificar se a ordenação foi realizada corretamente, é necessário avaliar os recursos utilizados para alcançar o resultado.
+
+### Conclusão Geral
+
+A partir dos experimentos, conclui-se que o tamanho da estrutura de dados possui influência significativa no desempenho dos algoritmos de ordenação. O Bubble Sort apresenta crescimento quadrático no número de operações, enquanto o Quick Sort apresenta, em condições médias, crescimento de O(n log n).
+
+Consequentemente, à medida que a quantidade de elementos aumenta, a diferença de desempenho entre os algoritmos tende a se tornar mais evidente. A análise experimental, juntamente com a análise de complexidade, permite compreender não apenas se um algoritmo funciona corretamente, mas também sua eficiência e adequação para diferentes volumes de dados.
+
+
