@@ -18,7 +18,7 @@ b) O que acontece quando o elemento procurado não existe?
 A matriz inteira precisa ser percorrida antes de concluir que o elemento não está presente.
 
 c) Qual é o pior caso da busca sequencial?
-Quando o elemento está na última posição ou não existe, sendo necessário verificar todos os elementos.
+Quando o elemento está na última posição ou não existe, sendo necessário verificar todos os elementos do codigo.
 
 d) Como o aumento das dimensões da matriz influencia a quantidade de operações?
 Quanto maior a matriz, maior a quantidade de elementos que podem precisar ser comparados. Uma matriz 100 × 100 possui 10.000 elementos.
