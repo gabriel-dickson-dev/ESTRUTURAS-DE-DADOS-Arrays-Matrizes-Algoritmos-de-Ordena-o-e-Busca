@@ -7,16 +7,15 @@ Resultados e Análise
 
 a) Qual algoritmo realizou menos operações para 10 elementos?
 
-Para um array contendo 10 elementos, a diferença entre os algoritmos é relativamente pequena. De acordo com os resultados apresentados na tabela experimental, o Quick Sort tende a realizar menos operações que o Bubble Sort.
+O Quick Sort efetuou menos passos computacionais do que o Bubble Sort, embora para 10 itens essa margem de diferença ainda seja bastante sutil.
 
 b) O comportamento permaneceu igual para 20 elementos?
 
-Não. Com o aumento para 20 elementos, a diferença entre os algoritmos começa a se tornar mais evidente. O Quick Sort tende a apresentar uma quantidade menor de operações, enquanto o número de operações do Bubble Sort cresce de maneira mais significativa.
+Não. Com o aumento para 20 itens, a discrepância de eficiência ficou mais clara: o Quick Sort manteve um volume menor de passos, enquanto o Bubble Sort teve um salto perceptível no esforço necessário.
 
 c) O que aconteceu quando o tamanho aumentou para 1.000 elementos?
 
-Com 1.000 elementos, a diferença entre os algoritmos tornou-se significativamente maior. O Bubble Sort realizou uma quantidade muito superior de operações, enquanto o Quick Sort conseguiu realizar a ordenação utilizando uma quantidade consideravelmente menor de operações.
-Esse resultado demonstra como a escolha do algoritmo pode ter grande impacto no desempenho quando o tamanho da estrutura de dados aumenta.
+A distância de desempenho entre eles disparou. O Bubble Sort exigiu um número muito mais expressivo de operações, ao passo que o Quick Sort resolveu a ordenação de forma bem mais otimizada, provando o impacto crucial da escolha do algoritmo em bases de dados maiores.
 
 d) Qual algoritmo apresentou maior crescimento na quantidade de operações?
 
@@ -31,10 +30,8 @@ Portanto, conforme o tamanho do array aumenta, a vantagem de desempenho do Quick
 
 f) Em qual situação seria escolhido o Bubble Sort?
 
-O Bubble Sort seria escolhido principalmente para arrays pequenos ou em situações nas quais a simplicidade de implementação seja mais importante que o desempenho.
-Também é um algoritmo adequado para fins didáticos, pois sua lógica de comparação e troca de elementos é simples de compreender e permite estudar conceitos fundamentais de ordenação.
+Ele é indicado em cenários com volumes reduzidos de dados, quando a simplicidade do código prioriza sobre a velocidade, ou em contextos educacionais para facilitar o entendimento dos fundamentos de troca e ordenação.
 
 g) Em qual situação seria escolhido o Quick Sort?
 
-O Quick Sort seria escolhido para arrays maiores, principalmente quando é necessário obter um melhor desempenho na ordenação.
-Para estruturas com aproximadamente 1.000 elementos ou mais, o Quick Sort tende a ser uma alternativa mais adequada que o Bubble Sort, devido ao seu menor crescimento médio na quantidade de operações.
+O Quick Sort é a melhor opção para manipular grandes volumes de dados, sobretudo quando alta performance na ordenação é um requisito essencial. Em conjuntos de dados na casa dos 1.000 elementos ou superiores, ele se mostra bem superior ao Bubble Sort por apresentar uma taxa de crescimento de operações muito menor.
