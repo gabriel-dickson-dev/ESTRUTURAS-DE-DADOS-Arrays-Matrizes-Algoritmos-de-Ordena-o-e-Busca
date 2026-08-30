@@ -50,7 +50,7 @@ O Bubble Sort é mais adequado para fins didáticos, listas pequenas ou conjunto
 
 ## 2. Quick Sort
 
-O **Quick Sort** é um algoritmo de ordenação baseado no paradigma de **Divisão e Conquista**. Seu funcionamento consiste em selecionar um elemento denominado **pivô** e reorganizar o vetor de modo que os elementos menores sejam posicionados de um lado e os maiores do outro. Em seguida, o mesmo procedimento é aplicado recursivamente às partes resultantes.
+O método **Quick Sort** utiliza a estratégia de **Divisão** e **Conquista** para ordenar dados. O processo se baseia na escolha de um elemento de referência (o pivô) para particionar o array, alocando os valores menores de um lado e os maiores do outro. Essa mesma lógica é então executada de forma recursiva nas sublistas geradas.
 
 ### Funcionamento
 
