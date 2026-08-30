@@ -5,7 +5,7 @@ explicação das diferenças entre Algoritmos de Ordenação Bubble Sort e Quick
 
 ## 1. Bubble Sort
 
-O **Bubble Sort** é um algoritmo de ordenação baseado na comparação sucessiva de elementos adjacentes. Durante cada passagem pelo vetor, os elementos são comparados e, caso estejam na ordem incorreta, são trocados. Dessa forma, os elementos de maior valor são gradualmente deslocados para o final da estrutura.
+O **Bubble Sort** é um algoritmo de ordenação centrado na comparação contínua entre pares vizinhos. Ao percorrer a lista, ele verifica se dois valores adjacentes estão fora de ordem e faz a permuta entre eles. Esse ciclo se repete até que os números de maior valor sejam empurrados gradativamente para as posições finais da estrutura.
 
 ### Funcionamento
 
