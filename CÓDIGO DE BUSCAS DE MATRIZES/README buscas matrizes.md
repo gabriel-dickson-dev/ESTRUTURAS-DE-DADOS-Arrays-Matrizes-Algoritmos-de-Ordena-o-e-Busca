@@ -12,16 +12,16 @@ Análise
 ---
 
 a) Por que encontrar um elemento no início exige menos operações?
-Porque a busca começa pela primeira posição. Se o elemento estiver nela, apenas uma comparação é necessária.
+Como o processo é iniciado pelo primeiro índice, achar o valor logo no começo requer apenas uma única verificação (melhor caso).
 
 b) O que acontece quando o elemento procurado não existe?
-A matriz inteira precisa ser percorrida antes de concluir que o elemento não está presente.
+É preciso checar todas as posições da estrutura do início ao fim até confirmar de fato a ausência do valor pesquisado.
 
 c) Qual é o pior caso da busca sequencial?
-Quando o elemento está na última posição ou não existe, sendo necessário verificar todos os elementos do codigo.
+Ocorre quando o item procurado está no último índice ou ausente, obrigando o algoritmo a checar cada uma das posições disponíveis.
 
 d) Como o aumento das dimensões da matriz influencia a quantidade de operações?
-Quanto maior a matriz, maior a quantidade de elementos que podem precisar ser comparados. Uma matriz 100 × 100 possui 10.000 elementos.
+O tamanho da estrutura é proporcional às verificações necessárias. Por exemplo, em uma tabela $100 \times 100$, aumentam-se as checagens para até $10.000$ posições.
 
 e) Qual a complexidade da busca sequencial em uma matriz com m linhas e n colunas?
 A complexidade é O(m × n), pois, no pior caso, todos os elementos da matriz precisam ser percorridos.
